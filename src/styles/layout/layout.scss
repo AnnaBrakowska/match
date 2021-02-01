@@ -1,0 +1,41 @@
+.match-area {
+  display: flex;
+  min-height: 100%;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.row--align-bottom {
+  margin-top: auto;
+}
+
+.col {
+  height: auto;
+  width: 50%;
+  max-width: 50%;
+}
+
+.container {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 35%;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: $breakpoint-sm) {
+  .col-half {
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: $breakpoint-sm) and (max-width: $breakpoint-md) {
+  .col-half {
+    max-width: 70%;
+  }
+}

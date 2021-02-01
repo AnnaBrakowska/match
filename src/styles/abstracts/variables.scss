@@ -1,0 +1,44 @@
+:root {
+  // ==== BASE ====
+  // Colors
+  --color-green: #28a745;
+  --color-white: #fff;
+  --color-gray-lightest: #fafafa;
+  --color-gray-light: #f0f2f6;
+  --color-gray-dark: #2a2f35;
+
+  // Font
+  --font-base: 16px;
+  --font-family: GT America, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+  // ===== ELEMENTS ====
+  // Button
+  --button-height: 3rem;
+  --button-font-weight: 400;
+  --button-letter-spacing: 1px;
+  --button-border-radius: 3px;
+  --button-width: 18rem;
+  --button-font-size: 1rem;
+  --button-width: 7rem;
+
+  // Input border
+  --input-border-radius: 2px;
+  --input-color: var(--color-gray-dark);
+  --input-heigth: 3rem;
+  --input-margin: 0.5rem;
+  --input-padding: 1rem;
+
+  // Label
+  --label-font-size: 1rem;
+  --label-margin: 0.5rem;
+
+  // Textarea
+  --textarea-margin-bottom: 20px;
+  --textarea-height: 20rem;
+  --textarea-border-radius: 2px;
+  --textarea-font-family: inherit;
+  --textarea-padding: 1.25rem;
+}
+
+$breakpoint-sm: 768px;
+$breakpoint-md: 1024px;

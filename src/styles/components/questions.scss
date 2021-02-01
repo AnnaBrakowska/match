@@ -1,0 +1,18 @@
+.questions {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.questions__input--error {
+  border: 1px solid red;
+  border-radius: 3px;
+}
+
+.questions__error-message {
+  color: red;
+  visibility: hidden;
+  &--shown {
+    visibility: visible;
+  }
+}

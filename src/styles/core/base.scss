@@ -1,0 +1,40 @@
+button {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  height: var(--button-height);
+  background: var(--color-green);
+  color: var(--color-white);
+  text-align: center;
+  font-weight: var(--button-font-weight);
+  letter-spacing: var(--button-letter-spacing);
+  border-radius: var(--button-border-radius);
+  width: var(--button-width);
+  font-size: var(--button-font-size);
+  width: var(--button-width);
+}
+
+input {
+  margin-top: var(--input-margin);
+  border: none;
+  height: var(--input-height);
+  color: var(--input-color);
+  border-radius: var(--input-border-radius);
+  padding: var(--input-padding);
+}
+
+label {
+  margin-top: var(--label-margin);
+  font-size: var(--label-font-siz);
+}
+
+textarea {
+  border: none;
+  resize: none;
+  margin-bottom: var(--textarea-margin-bottom);
+  height: var(--textarea-height);
+  border-radius: var(--textarea-border-radius);
+  font-family: var(--textarea-font-family);
+  padding: var(--textarea-padding);
+}

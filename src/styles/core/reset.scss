@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: var(--font-family);
+  font-size: var(--font-base);
+  background-color: var(--color-gray-light);
+  margin: 0;
+  -webit-font-smoothing: antialiased;
+}
